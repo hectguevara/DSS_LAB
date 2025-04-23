@@ -1,0 +1,63 @@
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+    display: block;
+}
+
+.thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Set a fixed scrollable wrapper */
+.tableWrap {
+    height: 200px;
+    overflow: auto;
+}
+/* Set header to stick to the top of the container. */
+thead tr th {
+    position: sticky;
+    top: 0;
+}
+
+/* If we use border,
+we must use table-collapse to avoid
+a slight movement of the header row */
+table {
+    border-collapse: collapse;
+}
+
+/* Because we must set sticky on th,
+ we have to apply background styles here
+ rather than on thead */
+th {
+    padding: 16px;
+    padding-left: 15px;
+}
+
+/* Basic Demo styling */
+table {
+    width: 100%;
+}
+table td {
+    padding: 1px;
+}
+
+.upload_file_container{
+    width:100px;
+    height:40px;
+    position:relative;
+    background: url(imgs/buscar.png);
+}
+
+.upload_file_container input{
+    width:100px;
+    height:40px;
+    position:absolute;
+    left:0;
+    top:0;
+    cursor:pointer;
+}
